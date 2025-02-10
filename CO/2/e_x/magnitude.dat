@@ -1,0 +1,7 @@
+#Intensity amplitude[Wcm-2],Field Amplitude[a.u.],2nd harmonic amplitude[a.u. eV^2],error in amplitude,2nd harmonic centre[eV],error in centre,2nd harmonic damping[eV],error in damping
+1e10 0.5338e-3 7e-3 1e-3 20.37 2e-2 0.27 2e-2
+3e10 0.9246e-3 0.013 1e-3 20.36 1e-2 0.21 1e-2
+1e11 1.6880e-3 0.037 4e-3 20.35 1e-2 0.20 1e-2
+3e11 2.9238e-3 0.11 2e-2 20.34 2e-2 0.22 2e-2
+1e12 5.3380e-3 0.34 6e-2 20.31 2e-2 0.26 3e-2
+3e12 9.2457e-3 0.9 0.2 20.29 4e-2 0.34 6e-2
