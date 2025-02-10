@@ -1,0 +1,6 @@
+#Ignore matrix data
+*.matrix
+#Ignore wfn.bak data, but include wfn data
+*.wfn.bak*
+#Ignore submit scripts
+rtbse.sh

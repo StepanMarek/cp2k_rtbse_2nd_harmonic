@@ -1,0 +1,40 @@
+= Determination of the pulse shape for CO molecule
+
+Two low-lying excitations observed in broad spectra obtained from `1/`
+
+ - excitation reaction to $y$ pulse direction,
+   equivalent with $z$ direction, at energy $epsilon _ y = 5.936$
+ - excitation reaction to $x$ pulse direction,
+   at energy $epsilon _ x = 10.114$
+
+#image("1/spectrum.svg")
+
+In order to excite the oscillation selectively, apply pulse centered around the energy - 
+need to determine the wavelength in nm.
+
+$
+	E = h f = h c / lambda \
+	lambda = (h c)/E = (4.135 "eV fs" times 2.997 times 10^(2) "nm/fs")/E approx
+	1239 "eV nm" / E
+$
+
+So $lambda_x approx 122.529 "nm"$, $lambda_y approx 208.770 "nm"$.
+
+In order to get a reasonably selective excitation, aim for pulse spread of cca 4 eV. From the
+Gaussian inversion in FT
+$
+	sigma_f = sigma_E/h = 1/sigma_t \
+	sigma_t = h/sigma_E approx 1.00 "fs"
+$
+Where I used $sigma_E = 4.135 "eV"$ to get a numerical cancelation.
+
+It is reasonable to give the pulse time of $3 sigma_t$ before running into full force and we shall
+count the target time from this full force time, meaning that the propagation time should be 23 fs
+with pulse $T_0 = 3.00 "fs"$. We should try varying the intensity until the moment amplitude
+in atomic units approaches reasonable fractions (percents) of unity.
+
+TODO : Having some trouble with oscillating field, should implement this for debugging
+
+ - implement setting the start time for FTs in fs, look at previous code from eigenstate removal
+    - maybe think about another section - move the keyword to RTBSE section?
+ - implement print section for field FT
