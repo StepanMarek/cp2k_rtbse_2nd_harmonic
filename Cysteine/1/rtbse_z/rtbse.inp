@@ -64,7 +64,7 @@
 			! Run SCF + post_scf calculations before running rtbse
 			INITIAL_WFN RT_RESTART
 			APPLY_DELTA_PULSE
-			DELTA_PULSE_DIRECTION 1 0 0
+			DELTA_PULSE_DIRECTION 0 0 1
 			DELTA_PULSE_SCALE 0.0001
 			&PRINT
 				! Printing of moments matrix - RTBSE
@@ -79,7 +79,7 @@
 				&END FIELD
 				&POLARIZABILITY
 					FILENAME POL
-					ELEMENT 1 1
+					ELEMENT 3 3
 				&END POLARIZABILITY
 			&END PRINT
 		&END REAL_TIME_PROPAGATION
