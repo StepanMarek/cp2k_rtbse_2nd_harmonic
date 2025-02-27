@@ -4,5 +4,6 @@
 *.wfn.bak*
 #Ignore submit scripts
 rtbse.sh
+bse.sh
 #Ignore jobs info
 jobs_info.txt
