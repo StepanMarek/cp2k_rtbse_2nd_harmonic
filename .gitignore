@@ -7,3 +7,4 @@ rtbse.sh
 bse.sh
 #Ignore jobs info
 jobs_info.txt
+ResultsPrev*
