@@ -53,13 +53,13 @@
 		&REAL_TIME_PROPAGATION
 			! === RTBSE options
 			&RTBSE
-				&PADE_FT
-					E_MIN [eV] 0.0
-					E_MAX [eV] 20.0
-					E_STEP [eV] 0.02
-					FIT_E_MIN [eV] 0.0
-					FIT_E_MAX [eV] 200.0
-				&END PADE_FT
+				! &PADE_FT
+				! 	E_MIN [eV] 0.0
+				! 	E_MAX [eV] 20.0
+				! 	E_STEP [eV] 0.02
+				! 	FIT_E_MIN [eV] 0.0
+				! 	FIT_E_MAX [eV] 200.0
+				! &END PADE_FT
 			&END RTBSE
 			! Convergence threshold of self-consistent ETRS
 			EPS_ITER 1E-07
